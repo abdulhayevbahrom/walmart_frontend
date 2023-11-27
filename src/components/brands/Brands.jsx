@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Brands() {
-    return (
-        <div>
-            brands.js
-        </div>
-    )
+  return <div></div>;
 }
 
-export default Brands
+export default Brands;

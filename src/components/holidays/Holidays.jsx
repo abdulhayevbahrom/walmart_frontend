@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Holidays() {
-    return (
-        <div>
-            holidays
-        </div>
-    )
+  return <div></div>;
 }
 
-export default Holidays
+export default Holidays;

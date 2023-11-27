@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function Clothes() {
-    return (
-        <div>
-            clothes.js
-        </div>
-    )
+  return <div></div>;
 }
 
-export default Clothes
+export default Clothes;
