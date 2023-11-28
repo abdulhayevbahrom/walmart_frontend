@@ -1,9 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-function Holidays() {
-  return <div></div>;
-=======
 import "./Holidays.css";
 import { Link } from "react-router-dom";
 import { data } from "../../static/advertisement";
@@ -32,7 +27,6 @@ function Holidays() {
       ))}
     </div>
   );
->>>>>>> origin/muhammadsoleh
 }
 
 export default Holidays;
