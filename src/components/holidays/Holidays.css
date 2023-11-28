@@ -102,6 +102,12 @@
   color: #222;
 }
 
+.holidays_item .font-size {
+  width: 70%;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .holidays_item a {
   text-decoration: underline;
   font-size: 14px;

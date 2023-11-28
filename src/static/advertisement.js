@@ -84,7 +84,7 @@ export const data = {
     {
       img: "https://i5.walmartimages.com/dfw/4ff9c6c9-fb23/k2-_d5257de8-75db-460c-9937-a84e65fb67a0.v1.jpg?odnHeight=1316&odnWidth=770&odnBg=&odnDynImageQuality=70",
       caption: "Ready for a ruff-ruff rescue",
-      textH2Class: "width",
+      textH2Class: "width font-size",
       link: {
         title: "Shop now",
         address: "shop-now",
