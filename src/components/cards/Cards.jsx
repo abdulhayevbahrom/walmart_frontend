@@ -69,13 +69,17 @@ function Cards({ title, category, data, video, img }) {
         {img ? (
           <img src={img} />
         ) : (
-          <video
-            autoPlay
-            loop
-            // controls
-            crossOrigin="anonymous"
-            src={video}
-          ></video>
+          <video autoplay loop>
+            <source src={video} type="video/mp4" />
+          </video>
+          // <video
+          //   className="pro"
+          //   autoplay={true}
+          //   loop={true}
+          //   // controls
+          //   crossOrigin="anonymous"
+          //   src={video}
+          // ></video>
         )}
       </div>
     </div>
