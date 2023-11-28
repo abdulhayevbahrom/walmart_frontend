@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Banner from "../../components/banner/Banner";
 import Cards from "../../components/cards/Cards";
 import Holidays from "../../components/holidays/Holidays";
+<<<<<<< HEAD
 import Category from "../../components/category/Category";
 import Clothes from "../../components/clothes/Clothes";
 import Brands from "../../components/brands/Brands";
@@ -11,11 +12,20 @@ import { products } from "../../static/products";
 function Home() {
   const tools = products.filter((i) => i.category === "Tires");
   const cloth = products.filter((i) => i.category === "fashion");
+=======
+import Holidays2 from "../../components/holidays/holidays2/Holidays2";
+import Category from "../../components/category/Category";
+import Clothes from "../../components/clothes/Clothes";
+import Brands from "../../components/brands/Brands";
+
+function Home() {
+>>>>>>> origin/muhammadsoleh
   return (
     <div>
       <Header />
       <Banner />
       {/* products   Black Friday Deals */}
+<<<<<<< HEAD
       <Cards
         title={"Discover Dyson"}
         category={"Hair tools, fans & more."}
@@ -45,6 +55,16 @@ function Home() {
         }
       />{" "}
       {/* Get what’s going viral */}
+=======
+      <Cards />
+      <Holidays />
+      {/* products part 2  More for gifting season */}
+      <Cards /> {/* All they want, for less */}
+      <Category />
+      <Holidays2 /> {/*  baby */}
+      {/* products Top gifts? Game on! */}
+      <Cards /> {/* Get what’s going viral */}
+>>>>>>> origin/muhammadsoleh
       <Clothes />
       {/* products More to love */}
       <Brands />

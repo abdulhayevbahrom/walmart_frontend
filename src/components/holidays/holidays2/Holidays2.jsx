@@ -1,17 +1,11 @@
 import React from "react";
-<<<<<<< HEAD
-
-function Holidays() {
-  return <div></div>;
-=======
-import "./Holidays.css";
+import { data } from "../../../static/advertisement";
 import { Link } from "react-router-dom";
-import { data } from "../../static/advertisement";
 
-function Holidays() {
+function Holidays2() {
   return (
     <div className="holidays_container">
-      {data.holidays?.map((item, index) => (
+      {data.baby?.map((item, index) => (
         <Link
           key={index}
           style={{
@@ -32,7 +26,6 @@ function Holidays() {
       ))}
     </div>
   );
->>>>>>> origin/muhammadsoleh
 }
 
-export default Holidays;
+export default Holidays2;
