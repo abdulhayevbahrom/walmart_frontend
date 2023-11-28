@@ -73,6 +73,7 @@ function Cards({ title, category, data, video, img }) {
             className="pro"
             autoplay={true}
             loop={true}
+            autoPlay
             // controls
             crossOrigin="anonymous"
             src={video}
