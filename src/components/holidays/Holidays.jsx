@@ -3,7 +3,6 @@ import "./Holidays.css";
 import { Link } from "react-router-dom";
 
 function Holidays({ data }) {
-  console.log(data);
   return (
     <div className="holidays_container">
       {data?.map((item, index) => (
