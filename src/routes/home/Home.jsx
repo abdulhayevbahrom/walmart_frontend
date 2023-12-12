@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../components/header/Header";
 import Banner from "../../components/banner/Banner";
 import Cards from "../../components/cards/Cards";
 import Holidays from "../../components/holidays/Holidays";
@@ -23,7 +22,6 @@ function Home() {
 
   return (
     <div>
-      <Header />
       <Banner />
       <Products title={"Black Friday Deals"} data={blackFriday} />
       <Cards
