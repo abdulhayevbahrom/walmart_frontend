@@ -15,16 +15,16 @@ function Home() {
   const cloth = products.filter((i) => i.category === "fashion");
 
   // products Data
-  let blackFriday = products.slice(0, 12)
-  let season = products.slice(13, 25)
-  let electronic = products.filter(i => i.category === "electronic")
-  let moreToLove = products.filter(i => i.category === "Grocery")
-  let fashion = products.filter(i => i.category === "fashion")
+  let blackFriday = products.slice(0, 12);
+  let season = products.slice(13, 25);
+  let electronic = products.filter((i) => i.category === "electronic");
+  let moreToLove = products.filter((i) => i.category === "Grocery");
+  let fashion = products.filter((i) => i.category === "fashion");
 
   return (
     <div>
       <Header />
-      <Banner />
+      {/* <Banner /> */}
       <Products title={"Black Friday Deals"} data={blackFriday} />
       <Cards
         title={"Discover Dyson"}
@@ -46,7 +46,6 @@ function Home() {
       <Category />
       <Holidays /> {/*  baby */}
       <Products title={"Top gifts? Game on!"} data={electronic} />
-
       <Cards
         title={"Get what's going viral"}
         category={"Find your favorite looks & more."}
@@ -61,7 +60,7 @@ function Home() {
       <Brands />
       <Products title={"Cold & flu season"} data={fashion} />
       {/* footer */}
-    </div >
+    </div>
   );
 }
 
