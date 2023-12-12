@@ -3,7 +3,7 @@ import './Header.css'
 import logo from "../img/Emblem-Walmart.jpg"
 import { CiGrid41 } from "react-icons/ci"
 import { HiOutlineViewGrid, HiViewGrid, HiOutlineViewGridAdd } from "react-icons/hi"
-import { CiHeart } from "react-icons/ci"
+import { CiHeart }  from "react-icons/ci"
 import { FaRegUser, FaCartArrowDown } from "react-icons/fa"
 import { IoIosSearch } from "react-icons/io"
 import { Link } from "react-router-dom"

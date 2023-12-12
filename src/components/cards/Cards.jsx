@@ -17,12 +17,10 @@ function Cards({ title, category, data, video, img }) {
           </h1>
           <Link to={"/"}>View all</Link>
         </div>
-
         <Swiper
           init="false"
           style={{
             "swiper-navigation-color": "red",
-            "swiper-navigation-background-color": "#000",
           }}
           slidesPerView={1}
           spaceBetween={10}
@@ -71,7 +69,6 @@ function Cards({ title, category, data, video, img }) {
         ) : (
           <video
             className="pro"
-            autoplay={true}
             loop={true}
             autoPlay
             // controls
